@@ -7,10 +7,12 @@ class FozCard extends StatelessWidget {
     required this.child,
     this.paddingHorizontal = 22.0,
     this.paddingVertical = 22.0,
+    this.borderRadius,
   });
   final Widget child;
   final double paddingHorizontal;
   final double paddingVertical;
+  final BorderRadiusGeometry? borderRadius;
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +22,7 @@ class FozCard extends StatelessWidget {
           horizontal: paddingHorizontal, vertical: paddingVertical),
       decoration: BoxDecoration(
         color: whiteColor,
-        borderRadius: cardRadius,
+        borderRadius: borderRadius ?? cardRadius,
       ),
       child: child,
     );

@@ -1,5 +1,6 @@
 import 'package:bank_sha/core.dart';
 import 'package:bank_sha/features/authentication/presentation/pages/sign_up_page.dart';
+import 'package:bank_sha/features/home/presentation/pages/main_navigation_page.dart';
 import 'package:flutter/material.dart';
 
 class SignInPage extends StatelessWidget {
@@ -69,7 +70,7 @@ class SignInPage extends StatelessWidget {
                     ),
                     FozPrimaryButton(
                       label: "Sign In",
-                      onPressed: () {},
+                      onPressed: () => Get.offAll(const MainNavigationPage()),
                     ),
                   ],
                 ),

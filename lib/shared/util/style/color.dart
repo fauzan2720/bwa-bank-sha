@@ -11,5 +11,5 @@ Color indicatorActiveColor = const Color(0xff53C1F9);
 Color lightBlueColor = indicatorActiveColor;
 Color greyColor = const Color(0xff696B76);
 Color inputKeyboardColor = const Color(0xff1A1D2E);
-Color toscaColor = const Color(0xff22B07D);
+Color greenColor = const Color(0xff22B07D);
 Color strokeColor = const Color(0xffEFEEF1);

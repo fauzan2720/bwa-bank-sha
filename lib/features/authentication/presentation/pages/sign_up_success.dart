@@ -1,4 +1,5 @@
 import 'package:bank_sha/core.dart';
+import 'package:bank_sha/features/home/presentation/pages/main_navigation_page.dart';
 import 'package:flutter/material.dart';
 
 class SignUpSuccess extends StatelessWidget {
@@ -36,7 +37,7 @@ class SignUpSuccess extends StatelessWidget {
             ),
             FozPrimaryButton(
               label: "Get Started",
-              onPressed: () {},
+              onPressed: () => Get.offAll(const MainNavigationPage()),
               width: 183.0,
             ),
           ],

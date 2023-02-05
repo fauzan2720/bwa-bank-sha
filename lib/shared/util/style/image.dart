@@ -6,3 +6,4 @@ String secondOnboarding = 'assets/images/onboarding_2.png';
 String thirdOnboarding = 'assets/images/onboarding_3.png';
 
 String imageUpload = 'assets/images/image_upload.png';
+String imagebackgroundCard = 'assets/images/img_bg_card.png';

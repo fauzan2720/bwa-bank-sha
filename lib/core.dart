@@ -12,6 +12,7 @@ export 'package:bank_sha/shared/util/style/font_weight.dart';
 export 'package:bank_sha/shared/util/style/icon.dart';
 export 'package:bank_sha/shared/util/style/image.dart';
 export 'package:bank_sha/shared/util/style/size.dart';
+export 'package:bank_sha/shared/util/utility/go_to_url.dart';
 export 'package:bank_sha/shared/util/utility/show_alert.dart';
 export 'package:bank_sha/shared/util/utility/show_confirmation.dart';
 export 'package:bank_sha/shared/util/utility/show_loading.dart';
